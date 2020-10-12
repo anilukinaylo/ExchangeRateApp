@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    height: 60%;
+    margin: 0 1vh 2vh;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    z-index: 2;
+    position: absolute;
+    left: 5vw;
+    top: 17vh;
+    right: 40vw;
+    box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    padding: 3vh;
+}
+
+.date {
+    margin-left: auto;
+}
+
+.card-row {
+    justify-content: center;
+    align-items: flex-start;
+}

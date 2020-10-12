@@ -1,0 +1,29 @@
+.footer-bottom {
+    flex: 0 0 auto;
+    opacity: 0.7;
+    background-color: #c7c1be;
+    box-shadow: 0 15px 4px rgba(0, 0, 0, 0);
+    border-top: 2px solid rgb(177, 175, 175);
+    font-size: 3vh;
+}
+
+.copyright {
+    padding: 0 100px;
+}
+
+.copyright-text {
+    padding: 14px 0;
+}
+
+.copyright-text p {
+    line-height: 1;
+    margin: 0;
+}
+
+.copyright-text p a {
+    color: #464343;
+}
+
+.copyright-text p a:hover {
+    color: rgb(139, 139, 139);
+}
