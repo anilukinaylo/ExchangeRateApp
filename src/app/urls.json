@@ -1,0 +1,11 @@
+{
+    "Urls": [{
+            "Url": "https://www.cbr-xml-daily.ru/daily_json.js",
+            "ResponseType": "Json"
+        },
+        {
+            "Url": "https://www.cbr-xml-daily.ru/daily_utf8.xml",
+            "ResponseType": "Xml"
+        }
+    ]
+}

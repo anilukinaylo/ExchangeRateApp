@@ -1,0 +1,16 @@
+<div>
+    <div class="card">
+        <div class="date">
+            <label>Курс на:</label>
+            <input type="text" readonly [(ngModel)]="date">
+        </div>
+        <div class="card-row">
+            <label>{{currentValute.CharCode}}:</label>
+            <input type="text" readonly [(ngModel)]="currentValute.Nominal">
+        </div>
+        <div class="card-row">
+            <label>{{newValute.CharCode}}:</label>
+            <input type="text" readonly [(ngModel)]="currentValute.Value">
+        </div>
+    </div>
+</div>
